@@ -1,0 +1,8 @@
+.env
+.idea/
+go.sum
+
+/logs/
+/test/
+/pkg/
+/.deploy/
