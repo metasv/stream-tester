@@ -10,7 +10,7 @@ import (
 
 func main() {
 	// set go routine(thread) count here
-	for i := 0; i < 2000; i++ {
+	for i := 0; i < 10; i++ {
 		go requestAddress()
 		time.Sleep(time.Millisecond * 20)
 	}
